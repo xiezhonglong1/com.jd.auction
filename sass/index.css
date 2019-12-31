@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+.topbacgroundimg {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(5, 148, 92, 0.95), rgba(5, 148, 92, 0));
+}
+
 .top {
   width: 100%;
+  overflow: hidden;
+  padding: calc(0rem / 85) calc(30rem / 85);
 }
 
 .top .top_search {
@@ -79,7 +86,7 @@
 .top .top_nva span {
   position: relative;
   display: inline-block;
-  width: calc(185rem / 85);
+  width: calc(222rem / 85);
 }
 
 .top .top_nva span img {
@@ -549,6 +556,7 @@
 
 .biddingblock ul {
   display: flex;
+  justify-content: space-between;
   flex-wrap: nowrap;
   overflow: hidden;
   overflow-x: scroll;
@@ -585,6 +593,616 @@
   }
 }
 
+.biddingmain {
+  background-image: linear-gradient(to bottom, #fcfcfc 0%, rgba(252, 252, 252, 0.6) 30%, #fffbfb 100%);
+}
+
+.adimg {
+  width: 100%;
+  height: calc(220rem /85);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: calc(60rem /85);
+  margin-bottom: calc(30rem /85);
+}
+
+.adimg img {
+  width: 100%;
+}
+
+@keyframes biddingloge {
+  100% {
+    background-position: 5px -2px;
+  }
+}
+
 .biddingblock_outside {
   width: 100%;
+}
+
+.biddingblock_outside .bidding_outsidetop {
+  width: 100%;
+}
+
+.biddingblock_outside .bidding_outsidetop span {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  font-size: calc(38rem / 85);
+  color: #333333;
+}
+
+.biddingblock_outside .bidding_outsidetop span small:nth-child(1) {
+  display: inline-block;
+  flex: 30%;
+  border-radius: 5px;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  height: calc(45rem / 85);
+  padding-right: calc(20rem / 85);
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.biddingblock_outside .bidding_outsidetop span small:nth-child(1) a {
+  display: inline-block;
+  height: 100%;
+  line-height: calc(45rem / 85);
+  font-size: calc(24rem / 85);
+  color: white;
+  padding: calc(0rem / 85) calc(20rem / 85);
+  background-image: linear-gradient(to left, rgba(243, 12, 12, 0.95), rgba(243, 12, 12, 0.5));
+}
+
+.biddingblock_outside .bidding_outsidetop span small:nth-child(1) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_outside .bidding_outsidetop span small:nth-child(2) {
+  float: right;
+  font-size: calc(24rem / 85);
+  color: #333333;
+  margin-left: auto;
+  padding-left: calc(50rem / 85);
+  background-image: url(../images/downloadbaddingloge1.png);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+  background-size: 28%;
+  animation: biddingloge 2s infinite linear;
+}
+
+.biddingblock_outside .bidding_outsidetop span small:nth-child(2) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_outside .bidding_outsidetop span:nth-child(1) {
+  margin-top: calc(35rem / 85);
+}
+
+.biddingblock_outside .bidding_outsidetop span:nth-child(2) {
+  margin: calc(15rem / 85) 0;
+}
+
+.biddingblock_outside .bidding_outsideimg {
+  width: 100%;
+}
+
+.biddingblock_outside .bidding_outsideimg ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: calc(30rem / 85);
+}
+
+.biddingblock_outside .bidding_outsideimg ul li {
+  text-align: center;
+}
+
+.biddingblock_outside .bidding_outsideimg ul li a {
+  display: inline-block;
+  border-radius: 10px;
+  width: calc(225rem / 85);
+  margin: calc(25rem / 85) 0;
+  overflow: hidden;
+}
+
+.biddingblock_outside .bidding_outsideimg ul li img {
+  width: 100%;
+  animation: youlikeimg 2s infinite linear alternate;
+}
+
+.biddingblock_outside .bidding_outsideimg ul li small {
+  display: inline-block;
+  font-size: calc(22rem /85);
+  color: #999999;
+}
+
+.biddingblock_outside .bidding_outsideimg ul li b {
+  color: #333333;
+}
+
+.biddingblock_technology {
+  width: 100%;
+}
+
+.biddingblock_technology .bidding_technologytop {
+  width: 100%;
+}
+
+.biddingblock_technology .bidding_technologytop span {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  font-size: calc(38rem / 85);
+  color: #333333;
+}
+
+.biddingblock_technology .bidding_technologytop span small:nth-child(1) {
+  display: inline-block;
+  flex: 30%;
+  border-radius: 5px;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  height: calc(45rem / 85);
+  padding-right: calc(20rem / 85);
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.biddingblock_technology .bidding_technologytop span small:nth-child(1) a {
+  display: inline-block;
+  height: 100%;
+  line-height: calc(45rem / 85);
+  font-size: calc(24rem / 85);
+  color: white;
+  padding: calc(0rem / 85) calc(20rem / 85);
+  background-image: linear-gradient(to left, rgba(243, 12, 12, 0.95), rgba(243, 12, 12, 0.5));
+}
+
+.biddingblock_technology .bidding_technologytop span small:nth-child(1) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_technology .bidding_technologytop span small:nth-child(2) {
+  float: right;
+  font-size: calc(24rem / 85);
+  color: #333333;
+  margin-left: auto;
+  padding-left: calc(50rem / 85);
+  background-image: url(../images/downloadbaddingloge1.png);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+  background-size: 28%;
+  animation: biddingloge 2s infinite linear;
+}
+
+.biddingblock_technology .bidding_technologytop span small:nth-child(2) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_technology .bidding_technologytop span:nth-child(1) {
+  margin-top: calc(35rem / 85);
+}
+
+.biddingblock_technology .bidding_technologytop span:nth-child(2) {
+  margin: calc(15rem / 85) 0;
+}
+
+.biddingblock_technology .bidding_technologyimg {
+  width: 100%;
+}
+
+.biddingblock_technology .bidding_technologyimg ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: calc(30rem / 85);
+}
+
+.biddingblock_technology .bidding_technologyimg ul li {
+  text-align: center;
+}
+
+.biddingblock_technology .bidding_technologyimg ul li a {
+  display: inline-block;
+  border-radius: 10px;
+  width: calc(225rem / 85);
+  margin: calc(25rem / 85) 0;
+  overflow: hidden;
+}
+
+.biddingblock_technology .bidding_technologyimg ul li img {
+  width: 100%;
+  animation: youlikeimg 2s infinite linear alternate;
+}
+
+.biddingblock_technology .bidding_technologyimg ul li small {
+  display: inline-block;
+  font-size: calc(22rem /85);
+  color: #999999;
+}
+
+.biddingblock_technology .bidding_technologyimg ul li b {
+  color: #333333;
+}
+
+.biddingblock_computer {
+  width: 100%;
+}
+
+.biddingblock_computer .bidding_computertop {
+  width: 100%;
+}
+
+.biddingblock_computer .bidding_computertop span {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  font-size: calc(38rem / 85);
+  color: #333333;
+}
+
+.biddingblock_computer .bidding_computertop span small:nth-child(1) {
+  display: inline-block;
+  flex: 30%;
+  border-radius: 5px;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  height: calc(45rem / 85);
+  padding-right: calc(20rem / 85);
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.biddingblock_computer .bidding_computertop span small:nth-child(1) a {
+  display: inline-block;
+  height: 100%;
+  line-height: calc(45rem / 85);
+  font-size: calc(24rem / 85);
+  color: white;
+  padding: calc(0rem / 85) calc(20rem / 85);
+  background-image: linear-gradient(to left, rgba(243, 12, 12, 0.95), rgba(243, 12, 12, 0.5));
+}
+
+.biddingblock_computer .bidding_computertop span small:nth-child(1) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_computer .bidding_computertop span small:nth-child(2) {
+  float: right;
+  font-size: calc(24rem / 85);
+  color: #333333;
+  margin-left: auto;
+  padding-left: calc(50rem / 85);
+  background-image: url(../images/downloadbaddingloge1.png);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+  background-size: 28%;
+  animation: biddingloge 2s infinite linear;
+}
+
+.biddingblock_computer .bidding_computertop span small:nth-child(2) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_computer .bidding_computertop span:nth-child(1) {
+  margin-top: calc(35rem / 85);
+}
+
+.biddingblock_computer .bidding_computertop span:nth-child(2) {
+  margin: calc(15rem / 85) 0;
+}
+
+.biddingblock_computer .bidding_computerimg {
+  width: 100%;
+}
+
+.biddingblock_computer .bidding_computerimg ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: calc(30rem / 85);
+}
+
+.biddingblock_computer .bidding_computerimg ul li {
+  text-align: center;
+}
+
+.biddingblock_computer .bidding_computerimg ul li a {
+  display: inline-block;
+  border-radius: 10px;
+  width: calc(225rem / 85);
+  margin: calc(25rem / 85) 0;
+  overflow: hidden;
+}
+
+.biddingblock_computer .bidding_computerimg ul li img {
+  width: 100%;
+  animation: youlikeimg 2s infinite linear alternate;
+}
+
+.biddingblock_computer .bidding_computerimg ul li small {
+  display: inline-block;
+  font-size: calc(22rem /85);
+  color: #999999;
+}
+
+.biddingblock_computer .bidding_computerimg ul li b {
+  color: #333333;
+}
+
+.biddingblock_redware {
+  width: 100%;
+}
+
+.biddingblock_redware .bidding_redwaretop {
+  width: 100%;
+}
+
+.biddingblock_redware .bidding_redwaretop span {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  font-size: calc(38rem / 85);
+  color: #333333;
+}
+
+.biddingblock_redware .bidding_redwaretop span small:nth-child(1) {
+  display: inline-block;
+  flex: 30%;
+  border-radius: 5px;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  height: calc(45rem / 85);
+  padding-right: calc(20rem / 85);
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.biddingblock_redware .bidding_redwaretop span small:nth-child(1) a {
+  display: inline-block;
+  height: 100%;
+  line-height: calc(45rem / 85);
+  font-size: calc(24rem / 85);
+  color: white;
+  padding: calc(0rem / 85) calc(20rem / 85);
+  background-image: linear-gradient(to left, rgba(243, 12, 12, 0.95), rgba(243, 12, 12, 0.5));
+}
+
+.biddingblock_redware .bidding_redwaretop span small:nth-child(1) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_redware .bidding_redwaretop span small:nth-child(2) {
+  float: right;
+  font-size: calc(24rem / 85);
+  color: #333333;
+  margin-left: auto;
+  padding-left: calc(50rem / 85);
+  background-image: url(../images/downloadbaddingloge1.png);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+  background-size: 28%;
+  animation: biddingloge 2s infinite linear;
+}
+
+.biddingblock_redware .bidding_redwaretop span small:nth-child(2) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_redware .bidding_redwaretop span:nth-child(1) {
+  margin-top: calc(35rem / 85);
+}
+
+.biddingblock_redware .bidding_redwaretop span:nth-child(2) {
+  margin: calc(15rem / 85) 0;
+}
+
+.biddingblock_redware .bidding_redwareimg {
+  width: 100%;
+}
+
+.biddingblock_redware .bidding_redwareimg ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: calc(30rem / 85);
+}
+
+.biddingblock_redware .bidding_redwareimg ul li {
+  text-align: center;
+}
+
+.biddingblock_redware .bidding_redwareimg ul li a {
+  display: inline-block;
+  border-radius: 10px;
+  width: calc(225rem / 85);
+  margin: calc(25rem / 85) 0;
+  overflow: hidden;
+}
+
+.biddingblock_redware .bidding_redwareimg ul li img {
+  width: 100%;
+  animation: youlikeimg 2s infinite linear alternate;
+}
+
+.biddingblock_redware .bidding_redwareimg ul li small {
+  display: inline-block;
+  font-size: calc(22rem /85);
+  color: #999999;
+}
+
+.biddingblock_redware .bidding_redwareimg ul li b {
+  color: #333333;
+}
+
+.biddingblock_headgear {
+  width: 100%;
+}
+
+.biddingblock_headgear .bidding_headgeartop {
+  width: 100%;
+}
+
+.biddingblock_headgear .bidding_headgeartop span {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  font-size: calc(38rem / 85);
+  color: #333333;
+}
+
+.biddingblock_headgear .bidding_headgeartop span small:nth-child(1) {
+  display: inline-block;
+  flex: 30%;
+  border-radius: 5px;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  height: calc(45rem / 85);
+  padding-right: calc(20rem / 85);
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.biddingblock_headgear .bidding_headgeartop span small:nth-child(1) a {
+  display: inline-block;
+  height: 100%;
+  line-height: calc(45rem / 85);
+  font-size: calc(24rem / 85);
+  color: white;
+  padding: calc(0rem / 85) calc(20rem / 85);
+  background-image: linear-gradient(to left, rgba(243, 12, 12, 0.95), rgba(243, 12, 12, 0.5));
+}
+
+.biddingblock_headgear .bidding_headgeartop span small:nth-child(1) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_headgear .bidding_headgeartop span small:nth-child(2) {
+  float: right;
+  font-size: calc(24rem / 85);
+  color: #333333;
+  margin-left: auto;
+  padding-left: calc(50rem / 85);
+  background-image: url(../images/downloadbaddingloge1.png);
+  background-repeat: no-repeat;
+  background-position: 2px -2px;
+  background-size: 28%;
+  animation: biddingloge 2s infinite linear;
+}
+
+.biddingblock_headgear .bidding_headgeartop span small:nth-child(2) i {
+  font-size: calc(28rem / 85);
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.biddingblock_headgear .bidding_headgeartop span:nth-child(1) {
+  margin-top: calc(35rem / 85);
+}
+
+.biddingblock_headgear .bidding_headgeartop span:nth-child(2) {
+  margin: calc(15rem / 85) 0;
+}
+
+.biddingblock_headgear .bidding_headgearimg {
+  width: 100%;
+}
+
+.biddingblock_headgear .bidding_headgearimg ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: calc(30rem / 85);
+}
+
+.biddingblock_headgear .bidding_headgearimg ul li {
+  text-align: center;
+}
+
+.biddingblock_headgear .bidding_headgearimg ul li a {
+  display: inline-block;
+  border-radius: 10px;
+  width: calc(225rem / 85);
+  margin: calc(25rem / 85) 0;
+  overflow: hidden;
+}
+
+.biddingblock_headgear .bidding_headgearimg ul li img {
+  width: 100%;
+  animation: youlikeimg 2s infinite linear alternate;
+}
+
+.biddingblock_headgear .bidding_headgearimg ul li small {
+  display: inline-block;
+  font-size: calc(22rem /85);
+  color: #999999;
+}
+
+.biddingblock_headgear .bidding_headgearimg ul li b {
+  color: #333333;
+}
+
+.bottomnav {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffffff;
+  height: calc(115rem / 85);
+  box-shadow: calc(115rem / 85) calc(-5rem / 85) calc(8rem / 85) #cccccc;
+}
+
+.bottomnav a {
+  display: inline-block;
+  width: calc(60rem / 85);
+  height: 100%;
+  padding-top: calc(10rem / 85);
+  text-align: center;
+}
+
+.bottomnav a img {
+  width: 100%;
+}
+
+.bottomnav a i {
+  display: inline-block;
+  font-size: calc(28rem / 85);
+  color: #333333;
+  margin-top: calc(8rem / 85);
+  font-style: normal;
+}
+
+.bottomnav a:nth-child(1) i {
+  color: red;
 }
