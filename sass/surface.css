@@ -1,0 +1,235 @@
+.topad {
+  display: flex;
+  height: calc(100rem / 85);
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: #232326;
+}
+
+.topad .topadleft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 70%;
+  height: 100%;
+}
+
+.topad .topadleft i {
+  display: inline-block;
+  width: calc(35rem / 85);
+  height: calc(35rem / 85);
+  background-image: url(../images/downloadcsptopad1.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin: calc(0rem / 85) calc(20rem / 85);
+  background-size: 100%;
+}
+
+.topad .topadleft img {
+  width: calc(70rem / 85);
+  margin: calc(0rem / 85) calc(20rem / 85);
+}
+
+.topad .topadleft span {
+  flex: auto;
+  text-align: left;
+}
+
+.topad .topadleft span a, .topad .topadleft span p {
+  display: block;
+  color: white;
+  font-size: calc(26rem / 85);
+  line-height: 1.4;
+}
+
+.topad .topadleft span p {
+  color: #999999;
+}
+
+.topad .topadright {
+  flex: 30%;
+  height: 100%;
+  line-height: calc(100rem / 85);
+  text-align: center;
+  color: white;
+  font-size: calc(28rem / 85);
+  background-color: red;
+}
+
+.topheaher {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: calc(100rem / 85);
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.topheaher span {
+  color: #333333;
+}
+
+.topheaher span img {
+  width: calc(40rem / 85);
+}
+
+.topheaher span:nth-child(1) img {
+  margin-left: calc(20rem / 85);
+}
+
+.topheaher span:nth-child(2) {
+  flex: auto;
+  text-align: center;
+  font-size: calc(30rem / 85);
+}
+
+.topheaher span:nth-child(3) img {
+  margin: calc(0rem / 85) calc(20rem / 85);
+}
+
+.topnav {
+  width: 100%;
+}
+
+.topnav .topnavfont {
+  width: 100%;
+  height: calc(100rem / 85);
+  display: flex;
+}
+
+.topnav .topnavfont a {
+  flex: 50%;
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  line-height: calc(100rem / 85);
+  color: white;
+  font-size: calc(28rem / 85);
+  font-weight: bold;
+  background-color: #000000;
+}
+
+.topnav .topnavfont a:nth-child(2) {
+  background-color: #262626;
+}
+
+.topnav .topnavimg {
+  width: 100%;
+}
+
+.topnav .topnavimg img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: calc(20rem / 85);
+  background-color: #f9f9f9;
+}
+
+.container ul {
+  width: 100%;
+}
+
+.container ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainlist {
+  position: relative;
+  width: 49%;
+  margin-bottom: calc(20rem / 85);
+  background-color: #ffffff;
+  padding: calc(0rem / 85) calc(15rem / 85);
+}
+
+.mainlist span {
+  text-align: center;
+}
+
+.mainlist span img {
+  width: calc(255rem / 85);
+  animation: mainlistiimg 2s infinite linear alternate;
+}
+
+.mainlist span:nth-child(2) {
+  display: inline-block;
+  position: absolute;
+  top: calc(210rem / 85);
+  left: 0;
+  width: 100%;
+  height: calc(65rem / 85);
+  color: #ffffff;
+  text-align: center;
+  line-height: calc(65rem / 85);
+  background-color: rgba(255, 0, 0, 0.75);
+}
+
+.mainlist p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+  color: #333333;
+  font-size: calc(28rem / 85);
+  margin: calc(20rem / 85) calc(0rem / 85);
+  margin-top: calc(30rem / 85);
+}
+
+.mainlist small {
+  color: #999999;
+  font-size: calc(24rem / 85);
+  text-align: left;
+  padding: calc(10rem / 85) calc(0rem / 85);
+}
+
+.mainlist small s {
+  color: red;
+  font-size: calc(22rem / 85);
+}
+
+.mainlist small b {
+  color: red;
+  font-size: calc(30rem / 85);
+}
+
+.mainlist span {
+  display: inline-block;
+  width: 100%;
+  margin: calc(10rem / 85) calc(0rem / 85);
+}
+
+.mainlist span i {
+  float: left;
+  color: #333333;
+  font-size: calc(22rem / 85);
+}
+
+.mainlist span a {
+  float: right;
+  color: red;
+  font-size: calc(22rem / 85);
+  margin-right: calc(25rem / 85);
+}
+
+@keyframes mainlistiimg {
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer img {
+  width: 100%;
+}

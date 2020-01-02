@@ -50,6 +50,7 @@ body {
 .topbox .topsearch span img {
   width: calc(45rem / 85);
   margin-top: calc(-35rem / 85);
+  animation: topsearchright 1.5s infinite linear;
 }
 
 .topbox .topsearch span i {
@@ -84,6 +85,7 @@ body {
 .topbox .topnav .topnavlist a img {
   width: calc(80rem / 85);
   margin-top: calc(25rem / 85);
+  animation: topnavimg 2s infinite linear;
 }
 
 .topbox .topnav .topnavlist a i {
@@ -139,6 +141,18 @@ body {
   font-size: calc(22rem / 85);
 }
 
+@keyframes topnavimg {
+  100% {
+    transform: rotateZ(360deg) scale(1.2);
+  }
+}
+
+@keyframes topsearchright {
+  100% {
+    transform: translateY(5px);
+  }
+}
+
 .imgnav {
   margin-top: calc(20rem / 85);
   background-color: #fff;
@@ -151,20 +165,24 @@ body {
   border-bottom: 1px solid #cccccc;
 }
 
+.imgnavtop span {
+  overflow: hidden;
+  float: left;
+}
+
+.imgnavtop span img {
+  width: 100%;
+  height: 100%;
+}
+
 .imgnavtop span:nth-child(1) {
-  display: inline-block;
   width: 66.5%;
   height: 100%;
   border-right: 1px solid #cccccc;
 }
 
 .imgnavtop span:nth-child(2) {
-  display: inline-block;
   width: 30%;
-}
-
-.imgnavtop img {
-  width: 100%;
 }
 
 .imgnavbottom {
@@ -184,12 +202,14 @@ body {
   float: left;
   width: 33.333%;
   height: 50%;
+  overflow: hidden;
   border-right: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
 }
 
-.imgnavbottom img {
+.imgnavbottom span img {
   width: 100%;
+  height: 100%;
 }
 
 .adimg {
@@ -245,9 +265,149 @@ body {
   border-radius: 5px;
 }
 
+@keyframes mainimg {
+  100% {
+    transform: scale(1.2);
+  }
+}
+
 .container {
   width: 100%;
+  box-sizing: border-box;
   padding: calc(0rem /85) calc(20rem /85);
+}
+
+.container .maincontent {
+  display: flex;
+  width: 100%;
+  height: calc(250rem / 85);
+  padding: calc(20rem /85) calc(0rem /85);
+  border-bottom: 1px solid #cccccc;
+}
+
+.container .maincontent div:nth-child(1) {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin-right: calc(20rem / 85);
+  overflow: hidden;
+}
+
+.container .maincontent div:nth-child(1) img {
+  width: 215rem / 85;
+  height: 100%;
+  animation: mainimg 2s infinite linear alternate;
+}
+
+.container .maincontent div:nth-child(1) span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.container .maincontent div:nth-child(1) span i, .container .maincontent div:nth-child(1) span b {
+  display: inline-block;
+  font-size: calc(26rem / 85);
+  color: white;
+  padding: calc(0rem /85) calc(16rem /85);
+  line-height: calc(40rem / 85);
+  background-color: #e3874c;
+}
+
+.container .maincontent div:nth-child(1) span b {
+  color: #cf9f49;
+  background-color: #f6e38b;
+}
+
+.container .maincontent .maincontent_left {
+  width: auto;
+  height: 100%;
+}
+
+.container .maincontent .maincontent_left p {
+  color: #333333;
+  font-size: calc(26rem / 85);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .maincontent .maincontent_left span {
+  display: block;
+  color: #999999;
+  font-size: calc(24rem / 85);
+  margin: calc(10rem / 85) calc(0rem / 85);
+}
+
+.container .maincontent .maincontent_left span b {
+  color: red;
+  font-size: calc(30rem / 85);
+}
+
+.container .maincontent .maincontent_left span small {
+  display: inline-block;
+  padding-left: calc(32rem / 85);
+  background-image: url(../images/downloadcfmainidimg.png);
+  background-repeat: no-repeat;
+  background-position: calc(9rem / 85) calc(-1rem / 85);
+  background-size: 22%;
+  animation: mainleftid 1.5s infinite linear;
+}
+
+.container .maincontent .maincontent_left span:nth-last-child(1) {
+  display: inline-block;
+  color: #333333;
+  margin: 0px;
+  height: calc(45rem / 85);
+  font-size: calc(28rem / 85);
+  background-color: #cccccc;
+}
+
+.container .maincontent .maincontent_left span:nth-last-child(1) a {
+  display: inline-block;
+  color: white;
+  line-height: calc(45rem / 85);
+  padding: calc(0rem / 85) calc(15rem / 85);
+  background-color: red;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.container .maincontent .maincontent_left span:nth-last-child(1) strong {
+  display: inline-block;
+  line-height: calc(45rem / 85);
+  padding: calc(0rem / 85) calc(15rem / 85);
+}
+
+@keyframes mainleftid {
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.footerjz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(95rem / 85);
+  box-sizing: border-box;
+  background-color: #eeeaea;
+  margin-bottom: calc(127rem / 95);
+}
+
+.footerjz img {
+  width: calc(45rem / 85);
+  animation: footerjzimg 2s infinite linear;
+}
+
+@keyframes footerjzimg {
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 .bottomnav {
@@ -272,6 +432,7 @@ body {
 
 .bottomnav a img {
   width: 100%;
+  animation: bottomimg 2s infinite linear;
 }
 
 .bottomnav a i {
@@ -284,4 +445,10 @@ body {
 
 .bottomnav a:nth-child(1) i {
   color: red;
+}
+
+@keyframes bottomimg {
+  100% {
+    transform: translateY(3px);
+  }
 }
