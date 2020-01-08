@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24959",
+      "name": "赞",
+      "font_class": "f1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "936882",
+      "name": "符号 下拉",
+      "font_class": "fuhaoxiala",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "2769302",
+      "name": "资料",
+      "font_class": "ziliao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "3583374",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "4228329",
+      "name": "专题",
+      "font_class": "zhuanti",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5066423",
+      "name": "人",
+      "font_class": "wo-copy",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "5142978",
+      "name": "文件",
+      "font_class": "wenjian1",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "5184007",
+      "name": "分类 选中",
+      "font_class": "fenlei-copy",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "7610234",
+      "name": "魔法棒",
+      "font_class": "mofabang1",
+      "unicode": "e510",
+      "unicode_decimal": 58640
+    },
+    {
+      "icon_id": "8471618",
+      "name": "星星",
+      "font_class": "star",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "8502528",
+      "name": "广播",
+      "font_class": "guangbo1",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "8996413",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9717098",
+      "name": "宝石",
+      "font_class": "gemstone-yello",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "10484663",
+      "name": "文本",
+      "font_class": "wenben",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11155056",
+      "name": "排行",
+      "font_class": "paihang",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "11164887",
+      "name": "立方体",
+      "font_class": "lifangti",
+      "unicode": "e5b4",
+      "unicode_decimal": 58804
+    },
+    {
+      "icon_id": "12580533",
+      "name": "闹钟",
+      "font_class": "naozhong1",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    }
+  ]
+}
