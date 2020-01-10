@@ -572,7 +572,6 @@
   margin-left: calc(30rem / 85);
   padding: calc(15rem / 85) calc(25rem / 85);
   background-color: #cccccc;
-  animation: biddingblockfont 1.5s infinite linear alternate;
 }
 
 .biddingblock ul li a {
@@ -583,7 +582,6 @@
   font-size: calc(30rem / 85);
   color: #333333;
   border-radius: 8px;
-  animation: biddingblockfont 2.5s infinite linear alternate;
 }
 
 @keyframes biddingblockfont {
