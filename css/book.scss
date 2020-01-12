@@ -820,7 +820,11 @@
     position: fixed;
     right: calc(50rem / 85);
     bottom: calc(300rem / 85);
+    animation: rightfiexd 1.5s infinite linear alternate;
     img{
         width: calc(115rem / 85);
     }
+}
+@keyframes rightfiexd{
+    100%{transform: scale(1.3);}
 }
